@@ -11,9 +11,7 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
-PLUGIN_PATHS = ['D:\PycharmProjects\pelican_addon\pelican-plugins']
-PLUGINS = ['neighbors']
-THEME = 'pelican-striped-html5up'
+THEME = 'notmyidea-cms'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
