@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bytes Scribblings - misc</title><link href="https://yscman.github.io/" rel="alternate"></link><link href="https://yscman.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://yscman.github.io/</id><updated>2020-12-22T09:43:00-05:00</updated><subtitle>Random programing thoughts</subtitle><entry><title>My First Post</title><link href="https://yscman.github.io/my-first-post.html" rel="alternate"></link><published>2020-12-22T09:43:00-05:00</published><updated>2020-12-22T09:43:00-05:00</updated><author><name>Vinny</name></author><id>tag:yscman.github.io,2020-12-22:/my-first-post.html</id><summary type="html">&lt;h1&gt;Hey guys&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bytes Scribblings - misc</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2020-12-22T09:43:00-05:00</updated><entry><title>My First Post</title><link href="/my-first-post.html" rel="alternate"></link><published>2020-12-22T09:43:00-05:00</published><updated>2020-12-22T09:43:00-05:00</updated><author><name>Vinny</name></author><id>tag:None,2020-12-22:/my-first-post.html</id><summary type="html">&lt;h1&gt;Hey guys&lt;/h1&gt;
 &lt;p&gt;This is my blog, and the first (serious) one at that!&lt;/p&gt;
 &lt;p&gt;I'll be posting about a bunch of stuff in R and in Python, 
 about some personal projects and the jorney in general.&lt;/p&gt;
@@ -7,6 +7,4 @@ about some personal projects and the jorney in general.&lt;/p&gt;
 &lt;p&gt;This is my blog, and the first (serious) one at that!&lt;/p&gt;
 &lt;p&gt;I'll be posting about a bunch of stuff in R and in Python, 
 about some personal projects and the jorney in general.&lt;/p&gt;
-&lt;p&gt;This will be a learning experience all around, some, bear with me and brace for more!&lt;/p&gt;</content><category term="misc"></category><category term="test"></category></entry><entry><title>My second Post</title><link href="https://yscman.github.io/my-second-post.html" rel="alternate"></link><published>2020-12-22T09:43:00-05:00</published><updated>2020-12-22T09:43:00-05:00</updated><author><name>Vinny</name></author><id>tag:yscman.github.io,2020-12-22:/my-second-post.html</id><content type="html">&lt;h1&gt;Test #2&lt;/h1&gt;
-&lt;p&gt;Aqui vamos testar mais um commit.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Nice" src="https://yscman.github.io/images/selfie.jpeg"&gt;&lt;/p&gt;</content><category term="misc"></category><category term="test"></category></entry></feed>
+&lt;p&gt;This will be a learning experience all around, some, bear with me and brace for more!&lt;/p&gt;</content><category term="misc"></category><category term="greetings"></category></entry></feed>
