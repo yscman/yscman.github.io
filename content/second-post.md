@@ -7,3 +7,5 @@ tags: test
 # Test #2
 
 Aqui vamos testar mais um commit.
+
+![Nice]({static}/images/selfie.jpeg)
