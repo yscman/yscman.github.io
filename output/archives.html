@@ -10,49 +10,67 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+    <link rel="stylesheet/less" type="text/css" href="https://yscman.github.io/theme/stylesheet/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
 
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="https://yscman.github.io/theme/stylesheet/dark-theme.min.css">
 
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="https://yscman.github.io/theme/pygments/monokai.min.css">
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-          href="/theme/pygments/github.min.css">
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="https://yscman.github.io/theme/pygments/monokai.min.css">
 
 
-  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/brands.css">
-  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/solid.css">
-
-
-    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Bytes Scribblings Atom">
+  <link rel="stylesheet" type="text/css" href="https://yscman.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://yscman.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://yscman.github.io/theme/font-awesome/css/solid.css">
 
 
 
-  
+
+    <link rel="shortcut icon" href="/images/bs.ico" type="image/x-icon">
+    <link rel="icon" href="/images/bs.ico" type="image/x-icon">
 
 
-    <meta name="author" content="Vinny" />
-    <meta name="description" content="" />
-<meta property="og:site_name" content="Bytes Scribblings"/>
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Microsoft EDGE -->
+    <meta name="msapplication-TileColor" content="#333333">
+
+    <meta name="author" content="Claudio Goncalves" />
+    <meta name="description" content="A data science and statistics blog" />
+<meta property="og:site_name" content="Data Log"/>
 <meta property="og:type" content="blog"/>
-<meta property="og:title" content="Bytes Scribblings"/>
-<meta property="og:description" content=""/>
+<meta property="og:title" content="Data Log"/>
+<meta property="og:description" content="A data science and statistics blog"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content=""/>
+<meta property="og:url" content="https://yscman.github.io"/>
+<meta property="og:image" content="/images/selfie.jpeg">
 
-  <title>Bytes Scribblings &ndash; Archives</title>
+  <title>Data Log &ndash; Archives</title>
 
 </head>
-<body class="light-theme">
+<body >
   <aside>
     <div>
-      <a href="">
-        <img src="/theme/img/profile.png" alt="" title="">
+      <a href="https://yscman.github.io">
+        <img src="/images/selfie.jpeg" alt="Data Log" title="Data Log">
       </a>
 
       <h1>
-        <a href=""></a>
+        <a href="https://yscman.github.io">Data Log</a>
       </h1>
 
-
+<p>My personal log on Python, R and other stuff</p>
 
       <nav>
         <ul class="list">
@@ -60,35 +78,28 @@
 
               <li>
                 <a target="_self"
-                   href="/pages/about.html#about">
+                   href="https://yscman.github.io/pages/about.html#about">
                   About
                 </a>
               </li>
 
-            <li>
-              <a target="_self" href="https://getpelican.com/" >Pelican</a>
-            </li>
-            <li>
-              <a target="_self" href="https://www.python.org/" >Python.org</a>
-            </li>
-            <li>
-              <a target="_self" href="https://palletsprojects.com/p/jinja/" >Jinja2</a>
-            </li>
-            <li>
-              <a target="_self" href="#" >You can modify those links in your config file</a>
-            </li>
         </ul>
       </nav>
 
       <ul class="social">
           <li>
-            <a  class="sc-You can add links in your config file" href="#" target="_blank">
-              <i class="fab fa-You can add links in your config file"></i>
+            <a  class="sc-github" href="https://github.com/yscman" target="_blank">
+              <i class="fab fa-github"></i>
             </a>
           </li>
           <li>
-            <a  class="sc-Another social link" href="#" target="_blank">
-              <i class="fab fa-Another social link"></i>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/cvgoncalves/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-rss" href="/blog/feeds/all.atom.xml" target="_blank">
+              <i class="fas fa-rss"></i>
             </a>
           </li>
       </ul>
@@ -97,6 +108,15 @@
   </aside>
   <main>
 
+    <nav>
+      <a href="https://yscman.github.io">Home</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+
+    </nav>
 
 <article class="single">
   <header>
@@ -105,19 +125,50 @@
   <div>
     <dl>
 
-          <dt>Tue 22 December 2020</dt>
+          <dt>dezembro 22, 2020</dt>
 
         <dd>
-          <a href="/my-first-post.html">My First Post</a>
+          <a href="https://yscman.github.io/my-first-post.html">My First Post</a>
+        </dd>
+          <dt>dezembro 22, 2020</dt>
+
+        <dd>
+          <a href="https://yscman.github.io/my-second-post.html">My second Post</a>
+        </dd>
+          <dt>dezembro 22, 2020</dt>
+
+        <dd>
+          <a href="https://yscman.github.io/my-third-post.html">My third Post</a>
         </dd>
     </dl>
   </div>
 </article>
 
     <footer>
-<p>&copy;  </p>
+<p>
+  &copy; 2020  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="https://yscman.github.io/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
 </p>    </footer>
   </main>
 
@@ -128,10 +179,10 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
 {
   "@context" : "http://schema.org",
   "@type" : "Blog",
-  "name": " Bytes Scribblings ",
-  "url" : "",
-  "image": "",
-  "description": ""
+  "name": " Data Log ",
+  "url" : "https://yscman.github.io",
+  "image": "/images/selfie.jpeg",
+  "description": "A data science and statistics blog"
 }
 </script>
 
