@@ -10,7 +10,7 @@ SITEDESCRIPTION = "A data science and statistics blog"
 SITEURL = 'https://yscman.github.io'
 
 SITELOGO = '/images/selfie.jpeg'
-FAVICON = '/images/bs.ico'
+FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = "#333333"
 PYGMENTS_STYLE = "monokai"
 DEFAULT_LANG = 'en'
@@ -22,18 +22,18 @@ TIMEZONE = 'America/New_York'
 
 THEME = 'Flex'
 
-# ROBOTS = "index, follow"
+ROBOTS = "index, follow"
 
-# PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 
-# PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites']
 
-# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
-# I18N_TEMPLATES_LANG = "en"
-# DEFAULT_LANG = "en"
-# OG_LOCALE = "en_US"
-# LOCALE = "en_US"
+I18N_TEMPLATES_LANG = "en"
+DEFAULT_LANG = "en"
+OG_LOCALE = "en_US"
+LOCALE = "en_US"
 
 DATE_FORMATS = {
     "en": "%B %d, %Y",
@@ -54,7 +54,9 @@ HOME_HIDE_TAGS = True
 SOCIAL = (
     ("github", "https://github.com/yscman"),
     ("linkedin", "https://www.linkedin.com/in/cvgoncalves/"),
-    ("rss", "/blog/feeds/all.atom.xml"),
+    ("twitter", "https://twitter.com/cvg_goncalves"),
+    ("stack-overflow", "https://stackoverflow.com/users/13408448/vinny-cvg"),
+    ("envelope", "mailto:cvg.goncalves@protonmail.com"),
 )
 
 MENUITEMS = (
