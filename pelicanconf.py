@@ -75,7 +75,7 @@ COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
 
 DISQUS_SITENAME = "data log"
-# ADD_THIS_ID = "ra-55adbb025d4f7e55"
+ADD_THIS_ID = "@disqus_XSVEjw9R5B"
 
 STATIC_PATHS = ["images", "extra/ads.txt", "extra/CNAME"]
 
