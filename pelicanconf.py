@@ -20,7 +20,7 @@ OUTPUT_PATH = "output"
 
 TIMEZONE = 'America/New_York'
 
-THEME = '/pelican-themes/Flex'
+THEME = './pelican-themes/Flex'
 
 ROBOTS = "index, follow"
 
@@ -59,22 +59,24 @@ SOCIAL = (
     ("envelope", "mailto:cvg.goncalves@protonmail.com"),
 )
 
+TWITTER_USERNAME = "cvg_goncalves"
+
 MENUITEMS = (
     ("Archives", "/archives.html"),
     ("Categories", "/categories.html"),
     ("Tags", "/tags.html"),
 )
 
-CC_LICENSE = {
-    "name": "Creative Commons Attribution-ShareAlike",
-    "version": "4.0",
-    "slug": "by-sa",
-}
+#CC_LICENSE = {
+#    "name": "Creative Commons Attribution-ShareAlike",
+#    "version": "4.0",
+#    "slug": "by-sa",
+#}
 
-COPYRIGHT_YEAR = datetime.now().year
+# COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
 
-DISQUS_SITENAME = "data log"
+DISQUS_SITENAME = "data-log"
 ADD_THIS_ID = "@disqus_XSVEjw9R5B"
 
 STATIC_PATHS = ["images", "extra/ads.txt", "extra/CNAME"]
