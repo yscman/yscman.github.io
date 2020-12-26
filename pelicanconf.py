@@ -7,7 +7,7 @@ SITENAME = 'Data Log'
 SITETITLE = "Data Log"
 SITESUBTITLE = "My personal log on Python, R and other stuff"
 SITEDESCRIPTION = "A data science and statistics blog"
-SITEURL = 'https://yscman.github.io'
+SITEURL = ''
 
 SITELOGO = '/images/selfie.jpeg'
 FAVICON = '/images/favicon.ico'
@@ -20,7 +20,7 @@ OUTPUT_PATH = "output"
 
 TIMEZONE = 'America/New_York'
 
-THEME = 'Flex'
+THEME = '/pelican-themes/Flex'
 
 ROBOTS = "index, follow"
 
@@ -74,7 +74,7 @@ CC_LICENSE = {
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
 
-# DISQUS_SITENAME = "data log"
+DISQUS_SITENAME = "data log"
 # ADD_THIS_ID = "ra-55adbb025d4f7e55"
 
 STATIC_PATHS = ["images", "extra/ads.txt", "extra/CNAME"]
