@@ -24,7 +24,7 @@ THEME = './pelican-themes/Flex'
 
 ROBOTS = "index, follow"
 
-PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['./pelican-plugins']
 
 PLUGINS = ['i18n_subsites']
 
@@ -65,13 +65,13 @@ MENUITEMS = (
     ("Tags", "/tags.html"),
 )
 
-CC_LICENSE = {
-    "name": "Creative Commons Attribution-ShareAlike",
-    "version": "4.0",
-    "slug": "by-sa",
-}
+#CC_LICENSE = {
+#    "name": "Creative Commons Attribution-ShareAlike",
+#    "version": "4.0",
+#    "slug": "by-sa",
+#}
 
-COPYRIGHT_YEAR = datetime.now().year
+# COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
 
 DISQUS_SITENAME = "data log"
@@ -87,7 +87,7 @@ EXTRA_PATH_METADATA = {
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
-USE_LESS = True
+USE_LESS = False
 
 # GOOGLE ANALYTICS
 # For Google Analytics 4 use. Note that for old Google Analytics ('UA-XXXXX') the GOOGLE_ANALYTICS variable is included in publishconfig.py
